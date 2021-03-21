@@ -35,7 +35,7 @@ const Home = () => {
   //PUt Anypage behind login
 
   if (!context.user?.uid) {
-    return <Redirect to="/signin" />;
+    return <Redirect to="/signin"/>;
   }
 
   return (
